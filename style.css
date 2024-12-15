@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: cadetblue;
+    color: rgb(20, 19, 21);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #292626;
+    color: #eadada;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-style: bold;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color:cadetblue;
+  }
+  
+  .about-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+    shape-image-threshold: inherit;
+  }
+  
+  .about-text {
+    width: 100%;
+    font-style: oblique;
+  }
+  
+  #about h2 {
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 0;
+    background-color: cadetblue;
+  }
+  
+  #skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+  }
+  
+  #skills li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .project-info {
+    max-width: 500px;
+  }
+  
+  .project-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    margin-bottom: 10px;
+    width: 200%
+  }
+  
+  .project-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #resume a {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #resume a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    background-color:cadetblue;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color:cadetblue;
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
